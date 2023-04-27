@@ -1,0 +1,101 @@
+settings:
+  prefix: "&#e85d04&l[&#ffd60a&lDailyBonus&#1982c4&lX&#e85d04&l]"
+  check-updates: ""
+  autoclaim:
+    enabled: true
+    notify-onclaim: true
+  bonus-reminder:
+    enabled: true
+  reward-limit: 30
+
+gui:
+  title: ""
+  filler:
+    name: "&f "
+    material: ""
+
+presets:
+  not-ready:
+    material: "BLACK_CONCRETE"
+    name: "&cDay <dayNum>"
+    enchanted: true
+    glowing: false
+    lore:
+      - "&7Your Reward Will Be Here Soon..."
+      - "&7Wait <timeUntilNextReward>"
+      - " "
+      - "&6&lReward(s):"
+      - "<daysReward>"
+      - " "
+      - "&c&lReward Not Ready!"
+  missed:
+    material: "RED_CONCRETE"
+    title: "&c&l[MISSED] &cDay <dayNum>"
+    enchanted: true
+    glowing: false
+    lore:
+      - "&7You missed your reward"
+      - "&7Don't worry, more await!"
+      - " "
+      - "&6&lReward(s):"
+      - "<daysReward>"
+      - " "
+      - "&c&lReward Missed!"
+  unclaimed:
+    material: "YELLOW_CONCRETE"
+    title: "&aDay <dayNum>"
+    enchanted: true
+    glowing: false
+    lore:
+      - "&7Your Reward Awaits..."
+      - "&7Click Me to claim your prize!"
+      - " "
+      - "&6&lReward(s):"
+      - "<daysReward>"
+      - " "
+      - "&c&lReward Unclaimed!"
+  claimed:
+    material: "LIME_CONCRETE"
+    name: "&bDay <dayNum>"
+    enchanted: true
+    glowing: false
+    lore:
+      - "&7More Rewards Await,"
+      - "&7Login Daily To Get More Prizes!"
+      - " "
+      - "&6&lReward(s):"
+      - "<daysReward>"
+      - " "
+      - "&a&lReward Claimed!"
+  future:
+    material: "ORANGE_CONCRETE"
+    name: "&cDay <dayNum>"
+    enchanted: true
+    glowing: false
+    lore:
+      - "&7Get a Daily Reward streak of <dayNum> days"
+      - "&7to access this prize!"
+      - ""
+      - "&6&lReward(s):"
+      - "<daysReward>"
+
+bonus-chests:
+  animation:
+    enabled: true
+    type: ""
+  particles:
+    not-ready:
+      enabled: true
+      effect: ""
+    missed:
+      enabled: true
+      effect: ""
+    unclaimed:
+      enabled: true
+      effect: ""
+    claimed:
+      enabled: true
+      effect: ""
+    on-claim:
+      enabled: true
+      effect: ""on

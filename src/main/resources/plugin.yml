@@ -1,0 +1,9 @@
+name: DailyRewardsX
+version: '${project.version}'
+main: sh.solsk.DailyRX
+api-version: 1.19
+prefix: DailyRewardsX
+load: STARTUP
+authors: [solsk]
+description: Rewards players with increasingly better incentives for joining your server in consecutive periods of time.
+website: https://docs.solsk.sh/drx
